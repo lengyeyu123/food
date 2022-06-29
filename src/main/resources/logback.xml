@@ -62,8 +62,8 @@
     <!-- 系统模块日志级别控制  -->
     <logger name="com.han.food" level="debug"/>
     <logger name="org.springframework" level="warn"/>
-    <logger name="com.zaxxer.hikari.HikariConfig" level="debug"/>
-    <logger name="com.zaxxer.hikari" level="debug"/>
+    <logger name="com.zaxxer.hikari.HikariConfig" level="info"/>
+    <logger name="com.zaxxer.hikari" level="info"/>
 
     <root level="info">
         <appender-ref ref="console"/>

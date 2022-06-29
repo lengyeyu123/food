@@ -1,4 +1,4 @@
-package com.han.food.project.vo;
+package com.han.food.project.vo.req;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

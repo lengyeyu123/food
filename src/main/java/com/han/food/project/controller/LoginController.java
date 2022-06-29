@@ -6,7 +6,7 @@ import com.han.food.framework.web.domain.R;
 import com.han.food.framework.web.service.TokenService;
 import com.han.food.project.domain.User;
 import com.han.food.project.service.UserService;
-import com.han.food.project.vo.FormLoginReqVo;
+import com.han.food.project.vo.req.FormLoginReqVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;

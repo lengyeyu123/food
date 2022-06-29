@@ -6,6 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
+/**
+ * Food 泛指可食用的商品
+ */
 @Slf4j
 @SpringBootApplication
 @ServletComponentScan
