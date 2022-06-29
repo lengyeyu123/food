@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.han.food.project.mapper.UserMapper">
+
+    <select id="selectById" resultType="com.han.food.project.domain.User">
+        select *
+        from food_user
+        where id = #{id}
+    </select>
+    <select id="selectByUserName" resultType="com.han.food.project.domain.User">
+        select *
+        from food_user
+        where user_name = #{userName}
+    </select>
+</mapper>
