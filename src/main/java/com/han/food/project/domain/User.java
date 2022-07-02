@@ -3,6 +3,9 @@ package com.han.food.project.domain;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+/**
+ * @author han
+ */
 @Data
 @Accessors(chain = true)
 public class User {
